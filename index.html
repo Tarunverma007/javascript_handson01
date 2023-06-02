@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Handson1
+    </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <pre class="pre1">****Dom Handson****</pre>
+    <hr>
+    <pre><strong>Q1.</strong> Write the code to access element which is having id as "text".</pre>
+    <div id="text"> &nbsp  &nbsp This is using the first id selector</div>
+    <br>
+    <hr>
+    <pre><strong>Q2.</strong> Write the code to access element which is having tag as "h1".</pre>
+    <br>
+    <h1 class="heading2">This is the tag selector of H1</h1>
+    <h1 class="heading2">
+        This is the second H1 selector
+    </h1>
+    <hr>
+    <pre><strong>Q3.</strong> Write the code to access element which is having class as "box".</pre>
+    <br>
+    <div class="box">This is the first class of the box </div>
+    <div class="box">This is the second class of the box</div>
+    <hr>
+    <pre> &lt;h1&gt; <strong>Hello</strong> &lt;/h1&gt;</pre>
+    <br>
+<pre><strong>Q4.</strong> Change thee heading from "Hello" to "Hello World" Using DOM funtions.
+</pre>
+<br>
+<h1 class="context"> &nbsp Hello</h1>
+&nbsp;&nbsp;<button class="btn1" onclick="ChangeMe()"> Change Text</button>
+<hr>
+<pre><strong>Q5.</strong> Create an HTML page having context as Hello world and button named Replaced Text. When user will click on this
+    button page context should be changed to "Welcome to Elevation academy".</pre>
+<h1 id="heading1"> &nbsp Hello World</h1>
+&nbsp;&nbsp;<button  class=" btn2"onclick="ClickHere()">  Replace Text</button>
+<br>
+<hr>
+<pre><strong>Q6.</strong> &lt;h1&gt;<strong> Hello</strong> &lt;/h1&gt;
+    <br>
+    Add one style attribute and give the text color as red and id attribute and give the id value as "heading in the above
+    given h1 tag using DOM functions. </pre>
+    <h1 id="heading"> &nbsp Hello</h1>
+<br>
+<hr>
+<pre><strong>Q8.</strong> What's the difference between window vs document?</pre>
+<h2 class="tables">Difference between Window and document</h2>
+<table border="1">
+    <tr>
+        <th>Window</th>
+        <th>Document</th>
+    </tr>
+    <tr>
+        <td>It represents a browser window or frame that displays the contents of the webpage.  </td>
+        <td>It represents any HTML document or web page that is loaded in the browser.</td>
+    </tr>
+    <tr>
+        <td>It is the very first object that is loaded in the browser.</td>
+        <td>It is loaded inside the window.</td>
+    </tr>
+    <tr>
+        <td>It is the object of the browser.</td>
+        <td>It is the object of window property.</td>
+    </tr>
+    <tr>
+        <td>Global objects, functions, and variables of JavaScript are members of the window object.</td>
+        <td>All the tags, elements with attributes in HTML are part of the document.</td>
+    </tr>
+
+    
+   
+</table>
+<BR>
+<hr>
+<pre><strong>Q7.</strong> Create Three cards on HTML page and arrange them using flex property in a row or horizontal direction and also create button at the bottm named
+    "change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.
+</pre>
+    
+    <div class="parent">
+   <div class="child">This is first container</div>
+   <div class="child">This is Second container</div>
+   <div class="child">This is third container</div> 
+</div>
+<br>
+ <button class="btn3" onclick="changeDirection()">Change Flex Direction</button> 
+<br>
+<hr>
+<pre><strong>Q9.</strong> Write code to implement timer clock using JS -- Display HH:MM:SS-- the time should keep updating every second.</pre>
+<br>
+<h1 class="clocks">Start Clock</h1>
+
+<h1 class="clocks"></h1>
+<br>
+<hr>
+<pre><strong>Q10.</strong> Guessing the Random Number.</pre>
+<br>
+<div id="container">
+<h1 class="game">****Guess My Numbers!****</h1>
+<h3 class="h3head">(Between 1 and 100)</h3>
+<pre id="guessinggame">******************************************<span id="spaning">  ?  </span>******************************************</pre>
+<hr id="headingof">
+<h2 class="margins"> Enter your guess down:</h2> 
+<input type="text" id="input1" placeholder="Enter here"><button id="btn4">Enter</button><button id="btn5"> Play again</button>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
